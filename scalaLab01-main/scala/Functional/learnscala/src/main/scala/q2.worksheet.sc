@@ -13,7 +13,7 @@ object Main {
     println("Temperature in Farenhite : "+temp+"F");
 
     //Question 03
-    def sphereArea(radius:Double):Double=4/3*radius*radius*radius;
+    def sphereArea(radius:Double):Double=4/3*math.Pi*radius*radius*radius;
     var sArea=sphereArea(5);
     println("Sphere Area : "+sArea);
 
